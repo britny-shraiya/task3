@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ques2</title>
+</head>
+<body>
+    <div>
+       <button onclick="add()">Add Hello</button>
+       <h1 id="times"></h1>
+    </div>
+</body>
+<script>
+    function add() { 
+        var res = document.createElement("p");
+        res.innerText = "hello"; 
+        var container = document.getElementById("times"); 
+
+        container.appendChild(res); 
+    }
+</script>
+</html>
